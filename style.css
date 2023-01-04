@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    background-color: rgb(166, 169, 172);
+}
+.top{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+   
+    padding: 16px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+   
+    flex-wrap: wrap;
+    gap:24px;
+
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(14, 111, 133);
+}
+.blue-links{
+
+    display: flex;
+   
+    padding: 0;
+    
+    margin: 0;
+    
+
+}
+.images{
+    
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+.images img{
+    width: 200px;
+    
+}
+.images .img4{
+    width: 100px;
+}
+.flex-end-img{
+    align-self: flex-end;
+}
+.search-input-container{
+    display: flex;
+    justify-content: center;
+    
+}
+.search-input-container input{
+    padding:16px 8px;
+    width: 500px;
+    margin: 0;
+
+
+}
+.search-input-container button{
+    padding: 8px 16px;
+    margin: 0;
+}
