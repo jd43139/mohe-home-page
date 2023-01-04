@@ -9,6 +9,14 @@ body{
    
     padding: 16px;
 }
+.logo-container{
+    display: flex;
+    justify-content: center;
+}
+.top .no-growing{
+    flex-grow: 0;
+    width: 200px;
+}
 ul{
     margin: 0;
     padding: 0;
