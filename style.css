@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Tajawal&display=swap');
 body{
     margin: 0;
-    background-color: rgb(166, 169, 172);
+    background-color: rgb(193, 196, 199);
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
 }
 .top{
     display: flex;
@@ -12,6 +16,7 @@ body{
 .logo-container{
     display: flex;
     justify-content: center;
+    
 }
 .top .no-growing{
     flex-grow: 0;
@@ -24,6 +29,7 @@ ul{
     display: flex;
     justify-content: space-between;
     flex-grow: 1;
+
    
     flex-wrap: wrap;
     gap:24px;
@@ -57,7 +63,7 @@ a{
     
 }
 .images .img4{
-    width: 100px;
+    width: 150px;
 }
 .flex-end-img{
     align-self: flex-end;
@@ -65,16 +71,71 @@ a{
 .search-input-container{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    width: 30%;
+    flex-grow: 0;
+    min-width: 200px;
+    
     
 }
 .search-input-container input{
     padding:16px 8px;
-    width: 500px;
+    
+    min-width: 100px;
     margin: 0;
+    flex-grow: 4;
+    
 
 
 }
 .search-input-container button{
     padding: 8px 16px;
     margin: 0;
+    background-color:  rgb(14, 111, 133);
+    color: aliceblue;
+    border: 1px solid;
+    border-radius: 4px;
+    flex-grow: 1;
+    
+}
+.search-input-container button:hover{
+    border-color: gold;
+    
+}
+.search-input-container button:active{
+    border-color:aliceblue ;
+}
+.images-and-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 64px;
+}
+.services-div{
+   
+    color: aliceblue;
+    padding: 16px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 8px;
+    
+
+
+}
+.services-div ul{
+    align-self: flex-start;
+    background-color:  rgb(14, 111, 133);
+    flex-direction: column;
+    border-radius: 6px;
+    border: 1px solid aliceblue;
+    padding: 16px;
+    
+    
+    align-items:flex-start;
+}
+.services-div a{
+    color: aliceblue;
 }
